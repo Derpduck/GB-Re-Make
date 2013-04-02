@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="saveEntities" type="RESOURCE"/>
+  <resource name="loadEntities" type="RESOURCE"/>
+  <resource name="clearEntities" type="RESOURCE"/>
+  <resource name="snapToGrid" type="RESOURCE"/>
+</resources>

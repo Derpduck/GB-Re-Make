@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="compileMap" type="RESOURCE"/>
+  <resource name="showGrid" type="RESOURCE"/>
+  <resource name="testMap" type="RESOURCE"/>
+</resources>

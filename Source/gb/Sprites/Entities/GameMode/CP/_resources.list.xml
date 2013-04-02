@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="controlPoint1E" type="RESOURCE"/>
+  <resource name="controlPoint2E" type="RESOURCE"/>
+  <resource name="controlPoint3E" type="RESOURCE"/>
+  <resource name="controlPoint4E" type="RESOURCE"/>
+  <resource name="controlPoint5E" type="RESOURCE"/>
+  <resource name="setupGateE" type="RESOURCE"/>
+  <resource name="nextAreaE" type="RESOURCE"/>
+</resources>

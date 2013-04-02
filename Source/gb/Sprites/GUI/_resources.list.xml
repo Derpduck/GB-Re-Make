@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Buttons" type="GROUP"/>
+  <resource name="Tabs" type="GROUP"/>
+  <resource name="Zoom" type="GROUP"/>
+  <resource name="whiteBack" type="RESOURCE"/>
+</resources>

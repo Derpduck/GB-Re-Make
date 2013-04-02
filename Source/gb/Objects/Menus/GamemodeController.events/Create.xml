@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">{
+    /* For reference
+    global.gamemode = 1 == Free Mode
+    global.gamemode = 2 == CTF
+    global.gamemode = 3 == CP
+    global.gamemode = 4 == Arena
+    global.gamemode = 5 == Generator
+    global.gamemode = 6 == KoTH
+    global.gamemode = 7 == DKoTH
+    */
+    
+    menu_create(40, 300, 200, 200, 30)
+    
+    menu_addlink("Which game-mode do you wish to map for?", '')
+    
+    menu_addlink("Free Mode", '
+        global.gamemode = 1
+        room_goto_fix(EditorR)
+    ')
+    
+    menu_addlink("CTF", '
+        global.gamemode = 2
+        room_goto_fix(EditorR)
+    ')
+    
+    menu_addlink("CP", '
+        global.gamemode = 3
+        room_goto_fix(EditorR)
+    ')
+    
+    menu_addlink("Arena", '
+        global.gamemode = 4
+        room_goto_fix(EditorR)
+    ')
+    
+    menu_addlink("Generator", '
+        global.gamemode = 5
+        room_goto_fix(EditorR)
+    ')
+    
+    menu_addlink("KoTH", '
+        global.gamemode = 6
+        room_goto_fix(EditorR)
+    ')
+    
+    menu_addlink("DKoTH", '
+        global.gamemode = 7
+        room_goto_fix(EditorR)
+    ')
+    
+    menu_addback("Back", '
+        global.makingNewMap=false
+        instance_destroy()
+        instance_create(0,0,MainMenuController)
+    ')
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

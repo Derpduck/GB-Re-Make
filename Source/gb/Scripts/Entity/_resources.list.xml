@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="create_entities" type="RESOURCE"/>
+  <resource name="load_entities" type="RESOURCE"/>
+  <resource name="unload_entities" type="RESOURCE"/>
+  <resource name="save_entities" type="RESOURCE"/>
+  <resource name="auto_unload_entities" type="RESOURCE"/>
+</resources>

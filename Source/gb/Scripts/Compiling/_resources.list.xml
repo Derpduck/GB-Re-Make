@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="draw_progress_bar" type="RESOURCE"/>
+  <resource name="sprite_to_png" type="RESOURCE"/>
+  <resource name="stray_entity_fix" type="RESOURCE"/>
+  <resource name="embed_level_data_to_png" type="RESOURCE"/>
+  <resource name="write_entities_to_string" type="RESOURCE"/>
+  <resource name="compress_walkmask_to_string" type="RESOURCE"/>
+  <resource name="map_entity_check" type="RESOURCE"/>
+  <resource name="get_gg2_dir" type="RESOURCE"/>
+  <resource name="test_map" type="RESOURCE"/>
+</resources>

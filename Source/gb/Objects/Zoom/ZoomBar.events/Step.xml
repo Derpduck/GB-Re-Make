@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">/*
+//Don't let it go off the edge.
+if y&lt;ZoomBack.y+14{
+    global.zoom2=2
+    set_zoom_amount()
+    global.ifzoomed=1
+}else if y&gt;ZoomBack.y+35{
+    global.zoom2=0.5
+    set_zoom_amount()
+    global.ifzoomed=1
+
+}else{
+    global.zoom2=1
+    if global.ifzoomed!=1{
+        view_hview=1024
+        view_wview=768
+    }
+    global.ifzoomed=0
+}
+
+if y&gt;ZoomBack.y+42{
+    y=ZoomBack.y+42
+}else if y&lt;ZoomBack.y+7{
+    y=ZoomBack.y+7
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

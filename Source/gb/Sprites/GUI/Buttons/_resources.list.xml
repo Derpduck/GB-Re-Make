@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="General" type="GROUP"/>
+  <resource name="Entities" type="GROUP"/>
+  <resource name="buttonBaseGUI" type="RESOURCE"/>
+</resources>

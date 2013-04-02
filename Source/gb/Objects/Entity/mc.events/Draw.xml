@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">tool_sprite_cl()
+
+if (toolSpr&gt;0){
+    window_set_cursor(cr_none)
+    draw_sprite_ext(toolSpr,0,mouse_x,mouse_y,1,1,0,c_white,0.8)
+}
+
+draw_text_transformed_color(view_xview+20,view_yview+20,"Zoom: "+string(global.displayZoom),global.zoom2,global.zoom2,image_angle,c_green,c_green,c_green,c_green,zoomDisplayAlpha)
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

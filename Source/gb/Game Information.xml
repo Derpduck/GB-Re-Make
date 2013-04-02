@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gameInformation>
+  <windowPosition>
+    <left>256</left>
+    <top>142</top>
+    <width>512</width>
+    <height>384</height>
+  </windowPosition>
+  <allowResize>true</allowResize>
+  <backgroundColor>EFEEF2</backgroundColor>
+  <formCaption>Garrison Builder - Help</formCaption>
+  <mimicGameWindow>false</mimicGameWindow>
+  <pauseGame>true</pauseGame>
+  <showBorder>true</showBorder>
+  <stayOnTop>false</stayOnTop>
+</gameInformation>

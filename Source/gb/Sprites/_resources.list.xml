@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Font" type="GROUP"/>
+  <resource name="Buttons" type="GROUP"/>
+  <resource name="Cursor" type="GROUP"/>
+  <resource name="GUI" type="GROUP"/>
+  <resource name="Entities" type="GROUP"/>
+  <resource name="loadingImageS" type="RESOURCE"/>
+</resources>

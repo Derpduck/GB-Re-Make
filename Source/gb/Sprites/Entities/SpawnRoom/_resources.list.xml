@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="SpawnDoors" type="GROUP"/>
+  <resource name="Spawners" type="GROUP"/>
+  <resource name="spawnRoomE" type="RESOURCE"/>
+  <resource name="medCabinetE" type="RESOURCE"/>
+</resources>

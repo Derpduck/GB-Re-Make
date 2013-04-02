@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="button_creator" type="RESOURCE"/>
+  <resource name="tool_sprite_cl" type="RESOURCE"/>
+  <resource name="button_action" type="RESOURCE"/>
+  <resource name="create_button" type="RESOURCE"/>
+  <resource name="create_tool_button" type="RESOURCE"/>
+  <resource name="create_toggle_button" type="RESOURCE"/>
+  <resource name="create_specify_button" type="RESOURCE"/>
+</resources>

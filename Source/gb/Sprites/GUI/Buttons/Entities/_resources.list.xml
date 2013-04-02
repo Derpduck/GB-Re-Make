@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="GameMode" type="GROUP"/>
+  <resource name="SpawnRoom" type="GROUP"/>
+  <resource name="KillBoxes" type="GROUP"/>
+  <resource name="MoveBoxes" type="GROUP"/>
+  <resource name="PlayerWall" type="GROUP"/>
+  <resource name="BulletWall" type="GROUP"/>
+  <resource name="OneWayDoors" type="GROUP"/>
+</resources>

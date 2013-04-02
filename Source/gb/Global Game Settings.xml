@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<settings>
+  <graphics>
+    <scalingPercent>-1</scalingPercent>
+    <displayCursor>false</displayCursor>
+    <useVsync>false</useVsync>
+    <interpolateColors>false</interpolateColors>
+    <colorOutsideRoom>000000</colorOutsideRoom>
+  </graphics>
+  <windowing>
+    <startFullscreen>false</startFullscreen>
+    <dontDrawBorder>false</dontDrawBorder>
+    <allowWindowResize>false</allowWindowResize>
+    <alwaysOnTop>false</alwaysOnTop>
+    <dontShowButtons>false</dontShowButtons>
+    <switchVideoMode>false</switchVideoMode>
+  </windowing>
+  <splashImage>
+    <showCustom>true</showCustom>
+    <partiallyTransparent>false</partiallyTransparent>
+    <alphaTransparency>255</alphaTransparency>
+  </splashImage>
+  <progressBar>
+    <mode>LOADBAR_NONE</mode>
+    <scaleImage>false</scaleImage>
+  </progressBar>
+  <keys>
+    <letF1ShowGameInfo>false</letF1ShowGameInfo>
+    <letF4SwitchFullscreen>false</letF4SwitchFullscreen>
+    <letF5SaveF6Load>false</letF5SaveF6Load>
+    <letF9Screenshot>true</letF9Screenshot>
+    <letEscEndGame>true</letEscEndGame>
+    <treatCloseAsEscape>true</treatCloseAsEscape>
+  </keys>
+  <errors>
+    <displayErrors>true</displayErrors>
+    <writeToLog>true</writeToLog>
+    <abortOnError>false</abortOnError>
+    <treatUninitializedAsZero>false</treatUninitializedAsZero>
+  </errors>
+  <gameInfo>
+    <gameId>184176303</gameId>
+    <author>cspotcode, Taimat, juicebox360 and Derpduck</author>
+    <version>25</version>
+    <information/>
+    <versionMajor>2</versionMajor>
+    <versionMinor>5</versionMinor>
+    <versionRelease>0</versionRelease>
+    <versionBuild>0</versionBuild>
+    <company>Faucet Software</company>
+    <product>Garrison Builder Map Editor</product>
+    <copyright>2008 - 2013 Faucet Software</copyright>
+    <description>The map making tool for Gang Garrison 2.</description>
+    <directPlayGuid>07a58dc769c11346b667f7c4f579da66</directPlayGuid>
+  </gameInfo>
+  <system>
+    <processPriority>PRIORITY_HIGH</processPriority>
+    <disableScreensavers>true</disableScreensavers>
+    <freezeOnLoseFocus>false</freezeOnLoseFocus>
+  </system>
+  <includes>
+    <overwriteExisting>false</overwriteExisting>
+    <removeAtGameEnd>false</removeAtGameEnd>
+    <useTempFolder>false</useTempFolder>
+  </includes>
+</settings>

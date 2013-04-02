@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Buttons" type="GROUP"/>
+  <resource name="mc" type="RESOURCE"/>
+  <resource name="LevelEntity" type="RESOURCE"/>
+  <resource name="whiteBG" type="RESOURCE"/>
+  <resource name="whiteWM" type="RESOURCE"/>
+  <resource name="CustomMapW" type="RESOURCE"/>
+  <resource name="dragBar" type="RESOURCE"/>
+</resources>

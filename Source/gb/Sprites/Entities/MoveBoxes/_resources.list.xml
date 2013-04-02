@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="moveBoxRightE" type="RESOURCE"/>
+  <resource name="moveBoxDownE" type="RESOURCE"/>
+  <resource name="moveBoxUpE" type="RESOURCE"/>
+  <resource name="moveBoxLeftE" type="RESOURCE"/>
+</resources>

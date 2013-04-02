@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="intelRedE" type="RESOURCE"/>
+  <resource name="intelDoorHorzRedE" type="RESOURCE"/>
+  <resource name="intelDoorVertRedE" type="RESOURCE"/>
+  <resource name="intelBlueE" type="RESOURCE"/>
+  <resource name="intelDoorHorzBlueE" type="RESOURCE"/>
+  <resource name="intelDoorVertBlueE" type="RESOURCE"/>
+</resources>

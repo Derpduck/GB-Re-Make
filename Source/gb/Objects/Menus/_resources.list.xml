@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="MenuController" type="RESOURCE"/>
+  <resource name="MainMenuController" type="RESOURCE"/>
+  <resource name="GamemodeController" type="RESOURCE"/>
+  <resource name="OptionsController" type="RESOURCE"/>
+</resources>

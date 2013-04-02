@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Menus" type="GROUP"/>
+  <resource name="Zoom" type="GROUP"/>
+  <resource name="Collison" type="GROUP"/>
+  <resource name="Entity" type="GROUP"/>
+  <resource name="RoomChangeObserver" type="RESOURCE"/>
+  <resource name="SSControl" type="RESOURCE"/>
+</resources>

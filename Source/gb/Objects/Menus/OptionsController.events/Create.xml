@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">{
+    menu_create(40, 300, 200, 200, 30)
+    
+    alarm[0]=1
+    
+    menu_addedit_boolean("Fullscreen:", "global.fullscreen", '
+        gb_write_ini("Settings", "Fullscreen", argument0)
+        window_set_fullscreen(argument0)
+    ')
+    
+    menu_addedit_select("Menu Background:", "global.menubg", '
+        gb_write_ini("Settings", "MenuBackGround", argument0)
+        alarm[0]=1
+    ')
+    menu_add_option(1, "Normal")
+    menu_add_option(2, "Black")
+    menu_add_option(3, "Blue")
+    menu_add_option(4, "Green")
+    
+    menu_addedit_boolean("Graphical Effects:", "global.specialE", '
+        gb_write_ini("Settings", "GraphicsEffects", argument0)
+    ')
+    
+    menu_addedit_num("Toolbar Width:", "global.width", '
+        gb_write_ini("Settings", "ToolbarWidth", argument0)
+    ', 255)
+    
+    menu_addedit_select("Resolution:", "global.resolution", '
+        gb_write_ini("Settings", "Resolution", argument0)
+        set_resolution()
+    ')
+    menu_add_option(1, "4:3")
+    menu_add_option(2, "16:9")
+    
+    //menu_addedit_dir("GG2 Directory:", "global.gg2Directory", '
+    //    get_gg2_dir
+    //    gb_write_ini("Settings","GG2Directory",argument0)
+    //')
+    
+    menu_addback("Back", '
+        global.makingNewMap=false
+        room_goto_fix(MainMenuR)
+    ')
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="spawner1BlueE" type="RESOURCE"/>
+  <resource name="spawner2BlueE" type="RESOURCE"/>
+  <resource name="spawner3BlueE" type="RESOURCE"/>
+  <resource name="spawner4BlueE" type="RESOURCE"/>
+  <resource name="spawner5BlueE" type="RESOURCE"/>
+</resources>

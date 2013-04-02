@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="game_log" type="RESOURCE"/>
+  <resource name="gb_init" type="RESOURCE"/>
+  <resource name="room_goto_fix" type="RESOURCE"/>
+  <resource name="take_screenshot" type="RESOURCE"/>
+  <resource name="set_menu_BG" type="RESOURCE"/>
+  <resource name="set_resolution" type="RESOURCE"/>
+  <resource name="Menus" type="GROUP"/>
+  <resource name="Compiling" type="GROUP"/>
+  <resource name="Decompiling" type="GROUP"/>
+  <resource name="Entity" type="GROUP"/>
+  <resource name="MapLoading" type="GROUP"/>
+  <resource name="GUI" type="GROUP"/>
+  <resource name="Buttons" type="GROUP"/>
+</resources>
