@@ -37,6 +37,7 @@ Show Grid: Toggles the visability of the grid.
 Zoom In: Self-explanatory.
 Zoom Out: Self-explanatory.
 Reset Zoom: Self-explanatory.
+Test Map: Select the directory of Gang Garrison, then test out the map you are currently editing.
 Drag: Allows you to drag the tool-bar around.
 
 =======================
@@ -59,6 +60,7 @@ Bullet Walls: Stops bullets from passing through.
 Player Walls: Stops players from passing through.
 Kill Box: Kills players on contact.
 Frag Box: Explodes players on contact.
+Pit Fall: Kills the player and displays the "fell to a clumsy death" message.
 Move Boxes: Moves players in the direction of the box.
 Left Door: Only allows players to go though from the left.
 Right Door: Only allows players to go throuhg from the right.
@@ -79,13 +81,13 @@ Blue DKoTH CP: The control point for the blue team in DKoTH.
 =======================
 Help - Controls
 =======================
-Use the left, right up and down arrow keys to move around the map, or Shift+Right Click+Drag to move.
-Hold down Shift+Left click on a place entity, drag it to move it around.
+Use the left, right, up and down arrow keys to move around the map, or Shift+Right Click+Drag to move.
+Hold down Shift+Left click on a placed entity, drag it to move it around.
 Press F9 to take a screenshot.
 Press Shift+Z to reset the zoom level.
 
-If you wish to edit the source, please use the extentions provided, as these are the compatible extentions with GB, using
-ones from the current GG2 may cause problems.
+If you wish to edit the source, please use the extentions provided, as these are the extentions compatible with, and needed for editing GB.
+Using extentions from the current GG2 may cause problems.
 
-You can find more help and infomation here: http://www.ganggarrison.com/forums/index.php?board=7.0
+You can find help and more information here: http://www.ganggarrison.com/forums/index.php?board=7.0
 and here: http://www.ganggarrison.com/forums/index.php?board=3.0
