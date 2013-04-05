@@ -2,7 +2,7 @@
     stray_entity_fix()
 
     switch (show_question("Are you sure you want to scrap your entities?")){
-        case 0:
+        case 1:
             //If yes was pressed, end the routine.
             with (LevelEntity){
                 instance_destroy()

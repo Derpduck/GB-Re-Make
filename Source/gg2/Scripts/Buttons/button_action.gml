@@ -45,9 +45,13 @@
             test_map()
             break;
         case "mainMenu":
-            auto_unload_BG()
-            global.makingNewMap=false
-            room_goto_fix(MainMenuR)
+            switch (show_question("Are you sure you want to go to the Main Menu?")){
+                case 1:
+                    auto_unload_BG()
+                    global.makingNewMap=false
+                    room_goto_fix(MainMenuR)
+                break;
+            }
             break;
     }
 }

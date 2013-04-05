@@ -1,4 +1,4 @@
-//This is for when you select new map, because of the way it works the WM, BG and entities stay the same for when you go
+//This is for when you select main menu, because of the way it works the WM, BG and entities stay the same for when you go
 //back in the room.
 if (global.erasedOnce2 == false){
     stray_entity_fix()

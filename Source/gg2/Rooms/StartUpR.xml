@@ -8,7 +8,7 @@
   </grid>
   <speed>30</speed>
   <persistent>false</persistent>
-  <creationCode>window_set_visible(false) //Don't want users to see the black box, make invisible.
+  <creationCode>window_set_visible(false) //Don't want users to see the black box for long, make it invisible.
 //Set up everything we need.
 gb_init()
 cursor_sprite = cursorS

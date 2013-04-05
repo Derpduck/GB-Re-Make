@@ -44,8 +44,16 @@
         gb_write_ini("Settings", "Resolution", argument0)
         set_resolution()
     ')
-    menu_add_option(1, "4:3")
-    menu_add_option(2, "16:9")
+    menu_add_option(1, "1: 1024*768")
+    menu_add_option(2, "2: 1024*576")
+    menu_add_option(3, "3: 1024*600")
+    menu_add_option(4, "4: 1024*640")
+    menu_add_option(5, "5: 1024*800")
+    menu_add_option(6, "6: 1280*720")
+    menu_add_option(7, "7: 1280*768")
+    menu_add_option(8, "8: 1280*800")
+    menu_add_option(9, "9: 1366*768")
+    menu_add_option(10, "10: 800*600")
     
     //menu_addedit_dir("GG2 Directory:", "global.gg2Directory", '
     //    get_gg2_dir

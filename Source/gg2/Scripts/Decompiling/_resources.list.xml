@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
+  <resource name="custom_map_init" type="RESOURCE"/>
   <resource name="custom_map_decompress_walkmask_to_surface" type="RESOURCE"/>
   <resource name="custom_map_process_level_data" type="RESOURCE"/>
   <resource name="custom_map_decomp_entities_from_entity_data" type="RESOURCE"/>
-  <resource name="custom_map_init" type="RESOURCE"/>
   <resource name="load_decomp" type="RESOURCE"/>
   <resource name="load_decomp_wm" type="RESOURCE"/>
   <resource name="load_decomp_ent" type="RESOURCE"/>

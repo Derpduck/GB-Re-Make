@@ -1,8 +1,7 @@
-//This is for when you select new map, because of the way it works the WM, BG and entities stay the same for when you go
-//back in the room.
-if (global.erasedOnce == false){
+//This is for when you select main menu, because of the way it works the WM, BG and entities stay
+//when you go back in the room.
 stray_entity_fix()
-
+if (global.erasedOnce == false){
     instance_create(0,0,whiteBG)
 
     global.BG = ""
@@ -26,6 +25,6 @@ stray_entity_fix()
         room_caption = global.currentCap
     }
     global.bgName = ""
-    
+
     auto_unload_WM()
 }

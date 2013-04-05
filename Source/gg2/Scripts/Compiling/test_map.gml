@@ -1,4 +1,5 @@
 map_entity_check()
+stray_entity_fix()
 
 var target_PNG, c, loadWM, loadBGs;
 

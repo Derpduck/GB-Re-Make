@@ -2,6 +2,8 @@
 argument0 - x-coordinate
 argument1 - y-coordinate
 argument2 - tool name
+
+Unfortunatly, the names in the case have to be kept the same, otherwise this would not be compatible with GG2.
 */
 
 {

@@ -3,6 +3,9 @@ Garrison Builder - Help
 =======================
 Garrison builder is the map making tool for Gang Garrison 2.
 It was first released in 2008 by Cspotcode which has had contributions from Taimat, juicebox360, Leiche, Derpduck and various other people.
+
+This Re-Make was created by Derpduck.
+
 =======================
 Starting
 =======================
@@ -23,7 +26,12 @@ Quit: Quits Garrison Builder.
 =======================
 Help - Buttons
 =======================
-New Map: Goes back to the main menu so you can select a new game-mode/load a map.
+This section explains what each of the 'action buttons' does in Garrison Builder.
+----------
+Main Menu: Goes back to the main menu so you can select a new game-mode/load a map.
+Zoom In: Self-explanatory.
+Zoom Out: Self-explanatory.
+Reset Zoom: Self-explanatory.
 Select New Back-Ground: Prompts you to select a Back-Ground, the selected one replaces the current one.
 Select New Walk-Mask: Prompts you to select a Walk-Mask, the selected one replaces the current one.
 Load Entities: Prompts you to select an entitiy file.
@@ -34,15 +42,14 @@ Show Back-Ground: Toggles the visability of the Back-Ground.
 Show Walk-Mask: Toggles the visability of the Walk-Mask.
 Snap To Grid: Snaps entities to a grid.
 Show Grid: Toggles the visability of the grid.
-Zoom In: Self-explanatory.
-Zoom Out: Self-explanatory.
-Reset Zoom: Self-explanatory.
 Test Map: Select the directory of Gang Garrison, then test out the map you are currently editing.
 Drag: Allows you to drag the tool-bar around.
 
 =======================
 Help - Entities
 =======================
+This section will describe what each of the entities that one can place in Garrison Builder are.
+----------
 Red Spawn 1: First spawn for the red team.
 Red Spawn 2: Second spawn for the red team.
 Red Spawn 3: Third spawn for the red team.
@@ -54,8 +61,9 @@ Blue Spawn 3: Third spawn for the blue team.
 Blue Spawn 4: Fourth spawn for the blue team.
 Blue Spawn 5: Fifth spawn for the blue team.
 Med Cabinet: Med cabinet for the spawn rooms.
+(Note: Spawns 2-5 are fowarded spawns, these are used to show where the team will spawn after capping a capture point.)
 Spawn Doors: Red, blue, horizontal, vertical. These stop the opposite team from getting into the spawn.
-Spawn Area: Allows people who change class in the spawn to re-spawn instantly and stops people from building sentries, place this in the spawn.
+Spawn Area: Allows people who change class in the spawn to re-spawn instantly and stops people from building sentries.
 Bullet Walls: Stops bullets from passing through.
 Player Walls: Stops players from passing through.
 Kill Box: Kills players on contact.
@@ -81,6 +89,8 @@ Blue DKoTH CP: The control point for the blue team in DKoTH.
 =======================
 Help - Controls
 =======================
+This describes the control system for Garrison Builder.
+----------
 Use the left, right, up and down arrow keys to move around the map, or Shift+Right Click+Drag to move.
 Hold down Shift+Left click on a placed entity, drag it to move it around.
 Press F9 to take a screenshot.
@@ -89,5 +99,22 @@ Press Shift+Z to reset the zoom level.
 If you wish to edit the source, please use the extentions provided, as these are the extentions compatible with, and needed for editing GB.
 Using extentions from the current GG2 may cause problems.
 
-You can find help and more information here: http://www.ganggarrison.com/forums/index.php?board=7.0
-and here: http://www.ganggarrison.com/forums/index.php?board=3.0
+=======================
+Help - Options
+=======================
+Currently, the options in Garrison Builder are limited to what is neccesary.
+----------
+Menu BackGround: Change the background and the main menu.
+Fullscreen: Self-explanatory.
+Graphical Effects: Changes whether transparency is used on the toolbar and entities.
+Toolbar width: Sets how many buttons are on one line of the toolbar.
+Resolution: Choose from many different resolutions to get the optimal size for your monitor, as the wrong one often makes Garrison Builder
+-look squashed, stretched or leaves a black bar at the bottom of the screen.
+
+=======================
+Help - Further
+=======================
+If you need more help or information on Garrison Builder and map making, please visit the forums, and specifically the two boards listed below.
+----------
+Garrison Builder: http://www.ganggarrison.com/forums/index.php?board=7.0
+Map Making: http://www.ganggarrison.com/forums/index.php?board=3.0
