@@ -60,6 +60,10 @@
     //    gb_write_ini("Settings","GG2Directory",argument0)
     //')
     
+    menu_addedit_boolean("Limit view:", "global.limitView", '
+        gb_write_ini("Settings", "LimitView", argument0)
+    ')
+    
     menu_addback("Back", '
         global.makingNewMap=false
         room_goto_fix(MainMenuR)
