@@ -14,7 +14,7 @@
       <appliesTo>.self</appliesTo>
       <arguments>
         <argument kind="STRING">{
-  if (global.limitZoom)
+  if (global.limitView)
   {
     //Ensure we don't scroll past the edges of the level
     if(view_yview[0] &gt; 6 * background_get_height(LevelBGB) - view_hview[0]) view_yview[0] = 6 * background_get_height(LevelBGB) - view_hview[0];
