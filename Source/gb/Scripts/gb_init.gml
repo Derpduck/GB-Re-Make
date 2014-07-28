@@ -56,6 +56,7 @@
     ini_write_real("Settings","ToolbarWidth",global.width)
     ini_write_real("Settings","Resolution",global.resolution)
     ini_write_string("Settings","GG2Directory",global.gg2Directory)
+    ini_write_real("Settings","LimitView",global.limitView)
     ini_close()
     
     //Action
