@@ -30,6 +30,7 @@
     global.zoom2=1
     global.zoomJustChanged=false
     global.displayZoom=1
+    global.limitView = true
     
     //Zoom bar things, unused.
     global.zoomBarMinYPos=7
@@ -46,6 +47,7 @@
     global.width = ini_read_real("Settings","ToolbarWidth",14)
     global.resolution = ini_read_real("Settings","Resolution",0)
     global.gg2Directory = ini_read_string("Settings","GG2Directory","")
+    global.limitView = ini_read_real("Settings","LimitView",0)
     
     //Write
     ini_write_real("Settings","MenuBackGround",global.menubg)
@@ -54,6 +56,7 @@
     ini_write_real("Settings","ToolbarWidth",global.width)
     ini_write_real("Settings","Resolution",global.resolution)
     ini_write_string("Settings","GG2Directory",global.gg2Directory)
+    ini_write_real("Settings","LimitView",global.limitView)
     ini_close()
     
     //Action

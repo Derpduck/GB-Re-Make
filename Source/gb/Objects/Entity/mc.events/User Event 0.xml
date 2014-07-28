@@ -14,11 +14,14 @@
       <appliesTo>.self</appliesTo>
       <arguments>
         <argument kind="STRING">{
-//Ensure we don't scroll past the edges of the level
-if(view_yview[0] &gt; 6 * background_get_height(LevelBGB) - view_hview[0]) view_yview[0] = 6 * background_get_height(LevelBGB) - view_hview[0]
-if(view_xview[0] &gt; 6 * background_get_width(LevelBGB) - view_wview[0]) view_xview[0] = 6 * background_get_width(LevelBGB) - view_wview[0]
-if(view_yview[0] &lt; 0) view_yview[0] = 0
-if(view_xview[0] &lt; 0) view_xview[0] = 0
+  if (global.limitView)
+  {
+    //Ensure we don't scroll past the edges of the level
+    if(view_yview[0] &gt; 6 * background_get_height(LevelBGB) - view_hview[0]) view_yview[0] = 6 * background_get_height(LevelBGB) - view_hview[0];
+    if(view_xview[0] &gt; 6 * background_get_width(LevelBGB) - view_wview[0]) view_xview[0] = 6 * background_get_width(LevelBGB) - view_wview[0];
+    if(view_yview[0] &lt; 0) view_yview[0] = 0;
+    if(view_xview[0] &lt; 0) view_xview[0] = 0;
+  }
 }
 </argument>
       </arguments>
